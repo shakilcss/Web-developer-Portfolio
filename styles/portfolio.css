@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-ttile{
@@ -46,3 +47,16 @@ nav a{
     color: #181818;
 }
 
+/* header related styles */
+.header{
+    background-color: var(--White-Color, #FFF);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
+}
